@@ -15,6 +15,7 @@
 FROM ubuntu:22.04
 
 # Global Android command-line tools from https://developer.android.com/studio
+
 ARG ANDROID_CMDLINE_TOOLS_VERSION=11076708
 ENV ANDROID_SDK_ROOT "/sdk"
 ENV ANDROID_HOME "/sdk"
